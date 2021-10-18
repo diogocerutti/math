@@ -14,12 +14,13 @@ function App() {
             <div className='content' style={{paddingTop: '30px'}}>
                 <Router/>
             </div>
-            
+            {/*
             <div className='footer'>
                 <div className='container'>
                     Aivaras Kriksciunas, 2020
                 </div>
             </div>
+            */}
         </BrowserRouter>
     )
 

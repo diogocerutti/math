@@ -61,18 +61,21 @@ class Calculator extends React.Component {
                                 matrix={this.state.matrixA}>
                             </MatrixGridController>
                         </div>
+                        {/*
                         <div className='mb-8' style={{ flex: 1 }}>
                             <MatrixGridController 
                                 onChange={(mat) => this.setState({ matrixB: mat })} 
                                 matrix={this.state.matrixB}>
                             </MatrixGridController>
                         </div>
+                        */}
                     </div>
-
+                    {/*
                     <ButtonRow>
                         <SelectButton onSelect={this.swapMatrices.bind( this )}>Swap matrices</SelectButton>
                     </ButtonRow>
-
+                    */}
+                    {/*
                     <ButtonRow title="Single matrix operations (using first matrix)">
                         <SelectButton onSelect={this.createOpSelectHandler( OP_TRANSPOSE )}>Transpose</SelectButton>
                         <SelectButton onSelect={this.createOpSelectHandler( OP_SQUARE )}>^ 2</SelectButton>
@@ -86,7 +89,7 @@ class Calculator extends React.Component {
                         <SelectButton onSelect={this.createOpSelectHandler( OP_SUBTRACT )}>Subtract</SelectButton>
                         <SelectButton onSelect={this.createOpSelectHandler( OP_MULTIPLY )}>Multiply</SelectButton>
                     </ButtonRow>
-
+                    */}
                 </div>
 
 
