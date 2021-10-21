@@ -79,6 +79,7 @@ export default class MatrixGridController extends React.Component {
     }
 
     createMatrixRow( row, rowIndex ) {
+        console.log(row)
         if ( !this.readonly ) {
             return row.map(
                 ( col, colIndex ) => (
@@ -91,7 +92,7 @@ export default class MatrixGridController extends React.Component {
                             className={styles.matrixInput}
                             ></ContentEditable>
                     </td>
-                ) 
+                )
             )
         }
         else {

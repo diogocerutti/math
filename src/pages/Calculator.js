@@ -4,6 +4,7 @@ import MatrixGridController from '../components/Matrix/MatrixGridController'
 import SelectButton from '../components/SelectButton'
 import { createInitialMatrix } from '../lib/MatrixModifers'
 import MatrixOperations, {
+    /*
     OP_TRANSPOSE,
     OP_DETERMINANT,
     OP_SQUARE,
@@ -12,6 +13,7 @@ import MatrixOperations, {
     OP_SUBTRACT,
     OP_MULTIPLY,
     OP_INVERSE
+    */
 } from '../lib/MatrixOperations'
 
 class Calculator extends React.Component {
